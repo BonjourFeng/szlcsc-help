@@ -6,7 +6,7 @@ on:
   - cron: '0 2,11 * * *'  # 10 AM China Standard Time (CST, UTC+8)
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
